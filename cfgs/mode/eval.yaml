@@ -1,0 +1,16 @@
+exp_name: eval_${base_model_name}/temp-lr${lr}-mGN${max_grad_norm}-klC${kl_ref_coeff}-r${rw_strategy}-${exp_suffix}-r
+
+test_only: true
+load_ckpt: null
+use_lora: false
+
+prompt_based_eval: false
+experts_path_dict:
+  code: null
+  math: null
+  reasoning: null
+  other: null
+
+wandb_project: T^2_eval
+wandb_group_name: ${exp_name}
+out_dir: results_eval

@@ -1,0 +1,14 @@
+base_model:
+  _target_: base_model.LocalTinyLlamaModel
+
+base_model_name: tinyllama_1.1b
+
+# reference_params_results:
+#   - 'saved_models/tinyllama_1.1b/gsm8k/learnable_params.pt'
+#   - 'saved_models/tinyllama_1.1b/mbpp/learnable_params.pt'
+#   - 'saved_models/tinyllama_1.1b/ai2arc/learnable_params.pt'
+
+reference_params_results:
+  - "ckpts/learnable_params/tinyllama_1.1b_gsm8k_svd_pg_mlp.pt"
+  - "ckpts/learnable_params/tinyllama_1.1b_mbpp_pro_svd_pg_mlp.pt"
+  - "ckpts/learnable_params/tinyllama_1.1b_ai2arc_svd_pg_mlp.pt"

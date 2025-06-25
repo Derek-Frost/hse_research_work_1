@@ -1,0 +1,10 @@
+base_model:
+  _target_: base_model.MistralV03Instruct7B
+
+
+base_model_name: mistral03i7b
+  
+reference_params_results:
+  - 'saved_models/mistral03i7b/gsm8k/policy_params.pt'
+  - 'saved_models/mistral03i7b/mbpp/policy_params.pt'
+  - 'saved_models/mistral03i7b/ai2arc/policy_params.pt'

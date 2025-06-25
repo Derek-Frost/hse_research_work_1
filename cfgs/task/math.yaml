@@ -1,0 +1,6 @@
+task_loader:
+  _target_: tasks.MathTask
+
+
+task_name: math
+  

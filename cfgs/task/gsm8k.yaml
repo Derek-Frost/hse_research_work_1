@@ -1,0 +1,6 @@
+task_loader:
+  _target_: tasks.Gsm8kTask
+
+
+task_name: gsm8k
+  

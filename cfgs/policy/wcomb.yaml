@@ -1,0 +1,15 @@
+
+
+shakeoff_policy:
+  _target_: policy.WeightedCombination
+  base_policy_cfg: null
+  params_paths: ${reference_params_results}
+  norm_coeffs: ${norm_coeffs}
+  per_layer: ${per_layer}
+  init_values: ${init_values}
+
+norm_coeffs: true
+per_layer: false
+init_values: null
+
+policy_name: Wcomb_n${norm_coeffs}_p${per_layer}

@@ -1,0 +1,15 @@
+task_loader:
+  _target_: tasks.FewShotTask
+  wrapped_task: 
+    _target_: tasks.AI2ArcTask
+  wrapped_split: ${wrapped_split}
+  shots: ${task_shots}
+  seed: ${task_loader_seed}
+
+
+wrapped_split: transfer
+task_shots: 10
+task_loader_seed: 38
+
+task_name: arc_chal_${task_shots}shots
+  

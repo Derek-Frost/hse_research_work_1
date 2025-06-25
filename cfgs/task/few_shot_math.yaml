@@ -1,0 +1,15 @@
+task_loader:
+  _target_: tasks.FewShotTask
+  wrapped_task: 
+    _target_: tasks.MathTask
+  wrapped_split: ${wrapped_split}
+  shots: ${task_shots}
+  seed: ${task_loader_seed}
+
+
+wrapped_split: test
+task_shots: 10
+task_loader_seed: 27
+
+task_name: math_${task_shots}shots
+  

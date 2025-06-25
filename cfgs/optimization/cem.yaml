@@ -1,0 +1,20 @@
+
+optimization_algorithm:
+  _target_: optim_modules.CEM
+  elite_ratio: ${elite_ratio}
+  pop_size: ${pop_size}
+  min_trainable_param: ${min_trainable_param}
+  max_trainable_param: ${max_trainable_param}
+  optim_ema: ${optim_ema}
+  re_eval_best: ${re_eval_best}
+  use_loglikelihood_for_ties: ${use_loglikelihood_for_ties}
+
+
+pop_size: 32
+elite_ratio: 0.2
+min_trainable_param: 0
+max_trainable_param: 1
+optim_ema: 0
+re_eval_best: True
+use_loglikelihood_for_ties: true
+optim_name: CEM-pop${pop_size}e${elite_ratio}-[${min_trainable_param}-${max_trainable_param}]-tieswLL${use_loglikelihood_for_ties}

@@ -1,0 +1,15 @@
+base_model:
+  _target_: base_model.Llama3Instruct8B
+
+
+base_model_name: llama3i8b
+  
+# reference_params_results:
+#   - 'saved_models/llama3i8b/gsm8k/learnable_params.pt'
+#   - 'saved_models/llama3i8b/mbpp/learnable_params.pt'
+#   - 'saved_models/llama3i8b/ai2arc/learnable_params.pt'
+
+reference_params_results:
+  - "ckpts/learnable_params/llama3_8b_instruct_gsm8k_svd_pg_mlp.pt"
+  - "ckpts/learnable_params/llama3_8b_instruct_mbpp_pro_svd_pg_mlp.pt"
+  - "ckpts/learnable_params/llama3_8b_instruct_gsm8k_svd_pg_mlp.pt"

@@ -1,0 +1,18 @@
+[2025-03-21 06:21:34,662][xformers][WARNING] - WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.3.1+cu121 with CUDA 1201 (you have 2.8.0.dev20250320+cu128)
+    Python  3.11.9 (you have 3.11.11)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+[2025-03-21 06:35:18,739][xformers][WARNING] - WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.3.1+cu121 with CUDA 1201 (you have 2.8.0.dev20250320+cu128)
+    Python  3.11.9 (you have 3.11.11)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+[2025-03-21 06:38:29,216][xformers][WARNING] - WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.3.1+cu121 with CUDA 1201 (you have 2.8.0.dev20250320+cu128)
+    Python  3.11.9 (you have 3.11.11)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details

@@ -1,0 +1,9 @@
+shakeoff_policy:
+  _target_: policy.Policy
+  init_val: ${init_val}
+  mode: ${policy_mode}
+  max_mult: ${max_mult}
+
+policy_mode: 1
+max_mult: 1
+policy_name: ${policy_mode}_mm${max_mult}
